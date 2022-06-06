@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+  <style>
+    p {
+      display: block;
+    }
+
+    #leftbox {
+      padding-left: 300px;
+      float: left;
+      width: 20%;
+      height: 250px;
+    }
+
+    #rightbox {
+      float: right;
+      width: 40%;
+      height: 250px;
+    }
+  </style>
+  <h2 style="text-align:center;padding-right:100px;">Bank Term Deposit Telemarketing Application</h2>
+  <div id="leftbox">
+    <p>Age: {{ age }}</p>
+    <p>Job: {{ job }}</p>
+    <p>Marital Status: {{ marital }}</p>
+    <p>Education: {{ education }}</p>
+    <p>Housing Loan: {{ housing }}</p>
+    <p>OtherLoan: {{ loan }}</p>
+    <p>Default: {{ default }}</p>
+    <p>Contact: {{ contact }}</p>
+    <p>Day Of Week: {{ dow }}</p>
+    <p>Duration: {{ duration }}</p>
+  </div>
+  <div id="rightbox">
+    <p>Campaign: {{ campaign }}</p>
+    <p>Previous: {{ previous }}</p>
+    <p>Previous Outcome: {{ poutcome }}</p>
+    <p>Consumer Price Index: {{ cpi }}</p>
+    <p>Euribor 3 Months Rate: {{ e3m }}</p>
+    <p>Number of Employees: {{ noe }}</p>
+    <p>Passed Days: {{ pdays }}</p>
+    <p>Employment Variation Rate: {{ evr }}</p>
+    <p>Consumer Confidence Index: {{ cci }}</p>
+    <p>Month: {{ month }}</p>
+  </div>
+  <h2 style="position:relative; top:300px;right:70px">The customer will</h2>
+  <h2 style="font-weight:bold;color: rgb(66, 2, 74); position: relative; top: 300px;right:20px">{{ outcome }}</h2>
+  <a href={{ url_for('index')
+        }}>
+    <button style="position:relative;margin-top:25%;">Back</button>
+  </a>
+</html>

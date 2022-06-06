@@ -1,0 +1,6 @@
+jinja2==3.0.3
+Flask==2.1.0
+keras==2.9.0
+numpy==1.21.5
+tensorflow==2.9.0
+protobuf~=3.19.0
