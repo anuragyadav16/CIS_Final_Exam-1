@@ -2,6 +2,7 @@
 from json import load
 from flask import Flask,render_template,request
 import pickle
+from pyrsistent import freeze
 import tensorflow as tf
 from tensorflow import keras
 import os
