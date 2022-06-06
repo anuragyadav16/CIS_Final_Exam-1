@@ -19,6 +19,12 @@
             ],
             "jinja": true,
             "justMyCode": true
+        },
+        {
+            "type": "pwa-chrome",
+            "request": "launch",
+            "name": "Open index.html",
+            "file": "c:\\Users\\anura\\Desktop\\CIS_Final_Exam-1\\BankApp\\templates\\index.html"
         }
     ]
 }

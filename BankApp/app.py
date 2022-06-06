@@ -64,10 +64,7 @@ def prediction():
 		return render_template('output.html',age = age,job = job,marital = marital,education = education,housing = housing,loan = loan,
 											campaign = campaign, previous = previous,poutcome = poutcome,cpi = cpi, e3m = e3m, noe = noe , outcome = outcome,
 											deafult = default,contact = contact,dow = dow,duration = duration,pdays = pdays,evr= evr,cci = cci,month = month)
-
-
-
-		
+	
 
 if __name__ == '__main__':
 	app.run()
