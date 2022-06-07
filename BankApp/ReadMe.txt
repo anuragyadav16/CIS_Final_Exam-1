@@ -151,4 +151,8 @@ Click CREATE to launch the automated resource creation wizard. The process may t
 Copy and paste this IP address in browser and you will be able to access you application and get predictions from your application.
 
 Public IPv4 address
+<<<<<<< HEAD
 http://44.203.104.134:5000/
+=======
+http://44.203.104.134:5000/
+>>>>>>> f99c25700eeac8a6694c5d297d646b14962dd8a3
