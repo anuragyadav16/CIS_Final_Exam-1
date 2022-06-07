@@ -1,4 +1,4 @@
-FROM python:3.8-slim
+FROM python:3.8.8
 COPY ./BankApp /usr/local/python/
 EXPOSE 5000
 WORKDIR /usr/local/python
