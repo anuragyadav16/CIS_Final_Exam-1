@@ -4,7 +4,7 @@ from flask import Flask,render_template,request
 import pickle
 import tensorflow as tf
 from tensorflow import keras
-from tensorflow.keras.models import load_model
+from tensorflow.python.keras.models import load_model
 import os
 import numpy as np
 import warnings
